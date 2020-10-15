@@ -9,7 +9,7 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "paths": {
-      "react-native-module-template": ["../src"]
+      "simple-native-form": ["../src"]
     },
     "skipLibCheck": true,
     "strict": true,

@@ -1,12 +1,12 @@
 import * as React from 'react'
 import { Button, NativeModules, Text, View } from 'react-native'
+import { formCreator } from './formCreator'
 import styles from './styles'
 
 export const addOne = (input: number) => input + 1
 
 export const Counter = () => {
   const [count, setCount] = React.useState(0)
-
   return (
     <View style={styles.container}>
       <Text>You pressed {count} times</Text>
@@ -15,4 +15,5 @@ export const Counter = () => {
   )
 }
 
-export default NativeModules.RNModuleTemplate
+export default NativeModules.KBSimpleNativeForm
+export {formCreator}

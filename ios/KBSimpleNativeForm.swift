@@ -1,14 +1,14 @@
 //
-//  RNModuleTemplate.swift
-//  RNModuleTemplate
+//  KBSimpleNativeForm.swift
+//  KBSimpleNativeForm
 //
-//  Copyright © 2020 Alex Demchenko. All rights reserved.
+//  Copyright © 2020 Kerolos Bisheer. All rights reserved.
 //
 
 import Foundation
 
-@objc(RNModuleTemplate)
-class RNModuleTemplate: NSObject {
+@objc(KBSimpleNativeForm)
+class KBSimpleNativeForm: NSObject {
   @objc
   func constantsToExport() -> [AnyHashable : Any]! {
     return ["count": 1]
